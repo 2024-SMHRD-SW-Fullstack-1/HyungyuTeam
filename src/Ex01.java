@@ -11,7 +11,11 @@ public class Ex01 {
 		
 
 		System.out.println("내작업커밋");
+
+		System.out.println("branch mr.kim commit");
+
 		System.out.println("branch 1팀커밋");
+
 
 
 	}
