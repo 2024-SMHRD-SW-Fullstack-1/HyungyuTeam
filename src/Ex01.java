@@ -8,8 +8,12 @@ public class Ex01 {
 		System.out.println("집에가고싶어요.");
 		System.out.println("조장펀치 조장펀치");
 		
+
 		
-		System.out.println("나만의 작업 커밋");
+		System.out.println("뷁");
+
+		System.out.println("내작업커밋");
+
 	}
 
 }
