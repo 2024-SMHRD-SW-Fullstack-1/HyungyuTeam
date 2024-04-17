@@ -22,6 +22,7 @@ public class Ex01 {
        
         System.out.println("그것보다 집에 가고싶은데요 ");
         System.out.println("빨리 추천 ㄱㄱ");
+        System.out.println("미니프로젝트 미리 사과합니다 -우리조 개트롤올림-");
 
 	}
 
