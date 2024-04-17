@@ -20,6 +20,7 @@ public class Ex01 {
 
         System.out.println("부산음식 추천좀 "); 
        
+        System.out.println("그것보다 집에 가고싶은데요 ");
 
 	}
 
