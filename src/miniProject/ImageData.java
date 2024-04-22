@@ -4,5 +4,5 @@ package miniProject;
 class ImageData {
     private String imagePath;  // 이미지 파일 경로
     private String answer; // 이미지에 대한 정답
-    // Getters and Setters 사용필요
+    // Getters and Setters, 생성자 생성 필요.
 }

@@ -6,13 +6,16 @@ class GameController {
     private GameService gameService; // 게임 로직 관리 객체
     private GameView gameView; // 게임 화면 출력 객체
     private User currentUser; // 현재 로그인한 사용자 객체
+    private Scanner scanner;
+    
+    //생성자 생성
 
     public void startGame(String userId) {
         currentUser = gameService.startGame(userId); // 게임 시작 및 현재 사용자 설정
         // 게임 진행 로직 구현
     }
 
-    // 사용자가 입력한 정답. 현재 이미지 데이터.
+    // 사용자가 입력한 정답. 현재 이미지 데이터. 정답처리//
     private void processAnswer(String userAnswer, ImageData imageData) {
         boolean isCorrect = gameService.checkAnswer(userAnswer, imageData);// 정답 확인
         if (isCorrect) {

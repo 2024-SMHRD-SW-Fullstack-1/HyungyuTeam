@@ -8,6 +8,8 @@ class GameService {
     private ImageRepository imageRepository;// 이미지 데이터 관리 객체
 
     
+    //생성자 만들어줘야함
+    
     // 게임을 시작하고 사용자 객체를 반환
     public User startGame(String userId) {
         User user = userRepository.getUserByUserId(userId); // 사용자 정보 가져오기
