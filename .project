@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-<<<<<<< HEAD
 	<name>ImageQuizGame</name>
 	<comment></comment>
-=======
-
-	<name>ImageQuizGame</name>
->>>>>>> a265d5298a54cbf38ca68d6d992a26cf1ba6050b
 	<projects>
 	</projects>
 	<buildSpec>
