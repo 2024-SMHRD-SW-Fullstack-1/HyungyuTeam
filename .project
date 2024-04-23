@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-<<<<<<< HEAD
+
 	<name>ImageQuizGame</name>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-	<name>GitTestMyteam</name>
-=======
-	<name>GitTestMyTeam02</name>
->>>>>>> b961332fa89d00039d5dfd8e126e8ab6a794cfa8
-=======
-	<name>GitTeamTest</name>
->>>>>>> 71f23022346af365dad265455d60cb6b1b7cee56
->>>>>>> 9f6a945ba0d8c2f32a2e0e2e5dd879507b872d54
-	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>
