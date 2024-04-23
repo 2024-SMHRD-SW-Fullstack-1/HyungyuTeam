@@ -11,8 +11,8 @@ public class Main {
 
         // JDBC 연결 정보
         String url = "";
-        String username = "";
-        String password = "";
+        String username = " ";
+        String password = " ";
 
         // 객체 생성
 
