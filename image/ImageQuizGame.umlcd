@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_v-3ykAHcEe-lEa95bgwI_Q">
+  <modelElement href="ImageQuizGame.uml#_xxTZgAHcEe-lEa95bgwI_Q"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_x2dmUAHcEe-lEa95bgwI_Q" sourceAnchor="0.0,16.0" targetAnchor="104.0,0.0" target="_x_Pu6QHcEe-lEa95bgwI_Q" source="_x2gCmQHcEe-lEa95bgwI_Q">
+    <modelElement href="ImageQuizGame.uml#_xyZlsAHcEe-lEa95bgwI_Q"/>
+    <bendpoints xmi:id="_zC2g8AHcEe-lEa95bgwI_Q" sourceX="-15" targetY="-15"/>
+    <stereotypes xmi:id="_x2eNYAHcEe-lEa95bgwI_Q" name="Reference">
+      <modelElement href="ImageQuizGame.uml#_xyaz0AHcEe-lEa95bgwI_Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_x2eNYQHcEe-lEa95bgwI_Q" text="">
+      <visualProperties xmi:id="_yER_4AHcEe-lEa95bgwI_Q" position="-44.0,-11.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_x2eNYgHcEe-lEa95bgwI_Q" aggregationKind="NONE" name="">
+      <modelElement href="ImageQuizGame.uml#_xyZlsQHcEe-lEa95bgwI_Q"/>
+      <visualProperties xmi:id="_yERY0QHcEe-lEa95bgwI_Q" position="-15.0,-23.0"/>
+      <visibility xmi:id="_x2eNYwHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_x2eNZAHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_x2eNZQHcEe-lEa95bgwI_Q" aggregationKind="NONE" name="gameService" navigable="true">
+      <modelElement href="ImageQuizGame.uml#_xyIf8AHcEe-lEa95bgwI_Q"/>
+      <visualProperties xmi:id="_yESm8AHcEe-lEa95bgwI_Q" position="-34.0,-101.0"/>
+      <visibility xmi:id="_x2eNZgHcEe-lEa95bgwI_Q" label="-"/>
+      <cardinality xmi:id="_x2eNZwHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_x2e0cAHcEe-lEa95bgwI_Q" sourceAnchor="80.0,156.0" targetAnchor="181.0,0.0" target="_yD9PwAHcEe-lEa95bgwI_Q" source="_x2gCmQHcEe-lEa95bgwI_Q">
+    <modelElement href="ImageQuizGame.uml#_xyaz0QHcEe-lEa95bgwI_Q"/>
+    <stereotypes xmi:id="_x2e0cQHcEe-lEa95bgwI_Q" name="Reference">
+      <modelElement href="ImageQuizGame.uml#_xycB8AHcEe-lEa95bgwI_Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_x2e0cgHcEe-lEa95bgwI_Q" text="">
+      <visualProperties xmi:id="_yJPYYAHcEe-lEa95bgwI_Q" position="0.0,33.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_x2e0cwHcEe-lEa95bgwI_Q" aggregationKind="NONE" name="">
+      <modelElement href="ImageQuizGame.uml#_xyaz0gHcEe-lEa95bgwI_Q"/>
+      <visualProperties xmi:id="_yJOxUAHcEe-lEa95bgwI_Q" position="11.0,-31.0"/>
+      <visibility xmi:id="_x2e0dAHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_x2e0dQHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_x2e0dgHcEe-lEa95bgwI_Q" aggregationKind="NONE" name="gameView" navigable="true">
+      <modelElement href="ImageQuizGame.uml#_xyKVIAHcEe-lEa95bgwI_Q"/>
+      <visualProperties xmi:id="_yJPYYQHcEe-lEa95bgwI_Q" position="-17.0,69.0"/>
+      <visibility xmi:id="_x2e0dwHcEe-lEa95bgwI_Q" label="-"/>
+      <cardinality xmi:id="_x2e0eAHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_x2fbgAHcEe-lEa95bgwI_Q" source="_x2gCmQHcEe-lEa95bgwI_Q">
+    <modelElement href="ImageQuizGame.uml#_xycB8QHcEe-lEa95bgwI_Q"/>
+    <stereotypes xmi:id="_x2fbgQHcEe-lEa95bgwI_Q" name="Reference">
+      <modelElement href="ImageQuizGame.uml#_xydQEAHcEe-lEa95bgwI_Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_x2fbggHcEe-lEa95bgwI_Q" text=""/>
+    <sourceRole xmi:id="_x2fbgwHcEe-lEa95bgwI_Q" aggregationKind="NONE" name="">
+      <modelElement href="ImageQuizGame.uml#_xycB8gHcEe-lEa95bgwI_Q"/>
+      <visibility xmi:id="_x2fbhAHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_x2fbhQHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_x2fbhgHcEe-lEa95bgwI_Q" aggregationKind="NONE" name="currentUser" navigable="true">
+      <modelElement href="ImageQuizGame.uml#_xyK8MQHcEe-lEa95bgwI_Q"/>
+      <visibility xmi:id="_x2fbhwHcEe-lEa95bgwI_Q" label="-"/>
+      <cardinality xmi:id="_x2fbiAHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_x2gCkAHcEe-lEa95bgwI_Q" source="_x2gCmQHcEe-lEa95bgwI_Q">
+    <modelElement href="ImageQuizGame.uml#_xydQEQHcEe-lEa95bgwI_Q"/>
+    <stereotypes xmi:id="_x2gCkQHcEe-lEa95bgwI_Q" name="Reference">
+      <modelElement href="ImageQuizGame.uml#_xyd3IAHcEe-lEa95bgwI_Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_x2gCkgHcEe-lEa95bgwI_Q" text=""/>
+    <sourceRole xmi:id="_x2gCkwHcEe-lEa95bgwI_Q" aggregationKind="NONE" name="">
+      <modelElement href="ImageQuizGame.uml#_xydQEgHcEe-lEa95bgwI_Q"/>
+      <visibility xmi:id="_x2gClAHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_x2gClQHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_x2gClgHcEe-lEa95bgwI_Q" aggregationKind="NONE" name="scanner" navigable="true">
+      <modelElement href="ImageQuizGame.uml#_xyLjQQHcEe-lEa95bgwI_Q"/>
+      <visibility xmi:id="_x2gClwHcEe-lEa95bgwI_Q" label="-"/>
+      <cardinality xmi:id="_x2gCmAHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_x_PH0AHcEe-lEa95bgwI_Q" source="_x_Pu6QHcEe-lEa95bgwI_Q">
+    <modelElement href="ImageQuizGame.uml#_x6hm8AHcEe-lEa95bgwI_Q"/>
+    <stereotypes xmi:id="_x_PH0QHcEe-lEa95bgwI_Q" name="Reference">
+      <modelElement href="ImageQuizGame.uml#_x6iOAAHcEe-lEa95bgwI_Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_x_PH0gHcEe-lEa95bgwI_Q" text=""/>
+    <sourceRole xmi:id="_x_PH0wHcEe-lEa95bgwI_Q" aggregationKind="NONE" name="">
+      <modelElement href="ImageQuizGame.uml#_x6hm8QHcEe-lEa95bgwI_Q"/>
+      <visibility xmi:id="_x_PH1AHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_x_PH1QHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_x_PH1gHcEe-lEa95bgwI_Q" aggregationKind="NONE" name="userRepository" navigable="true">
+      <modelElement href="ImageQuizGame.uml#_x6ejoAHcEe-lEa95bgwI_Q"/>
+      <visibility xmi:id="_x_PH1wHcEe-lEa95bgwI_Q" label="-"/>
+      <cardinality xmi:id="_x_PH2AHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_x_Pu4AHcEe-lEa95bgwI_Q" sourceAnchor="45.0,0.0" targetAnchor="0.0,22.0" target="_zBU28gHcEe-lEa95bgwI_Q" source="_x_Pu6QHcEe-lEa95bgwI_Q">
+    <modelElement href="ImageQuizGame.uml#_x6iOAQHcEe-lEa95bgwI_Q"/>
+    <bendpoints xmi:id="_zC2g8QHcEe-lEa95bgwI_Q" sourceY="-142" targetX="-72"/>
+    <stereotypes xmi:id="_x_Pu4QHcEe-lEa95bgwI_Q" name="Reference">
+      <modelElement href="ImageQuizGame.uml#_x6i1EAHcEe-lEa95bgwI_Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_x_Pu4gHcEe-lEa95bgwI_Q" text="">
+      <visualProperties xmi:id="_zC49MAHcEe-lEa95bgwI_Q" position="12.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_x_Pu4wHcEe-lEa95bgwI_Q" aggregationKind="NONE" name="">
+      <modelElement href="ImageQuizGame.uml#_x6iOAgHcEe-lEa95bgwI_Q"/>
+      <visualProperties xmi:id="_zC3vEAHcEe-lEa95bgwI_Q" position="-17.0,-69.75"/>
+      <visibility xmi:id="_x_Pu5AHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_x_Pu5QHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_x_Pu5gHcEe-lEa95bgwI_Q" aggregationKind="NONE" name="imageRepository" navigable="true">
+      <modelElement href="ImageQuizGame.uml#_x6fKsQHcEe-lEa95bgwI_Q"/>
+      <visualProperties xmi:id="_zC49MQHcEe-lEa95bgwI_Q" position="-178.0,24.75"/>
+      <visibility xmi:id="_x_Pu5wHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_x_Pu6AHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zBSasAHcEe-lEa95bgwI_Q" sourceAnchor="112.0,0.0" targetAnchor="55.0,44.0" target="_zBU28gHcEe-lEa95bgwI_Q" source="_yOP0MAHcEe-lEa95bgwI_Q">
+    <modelElement href="ImageQuizGame.uml#_zActMAHcEe-lEa95bgwI_Q"/>
+    <nameVisual xmi:id="_zBTo0AHcEe-lEa95bgwI_Q" text="">
+      <visualProperties xmi:id="_zC6LUAHcEe-lEa95bgwI_Q" position="2.5,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_zBTo0QHcEe-lEa95bgwI_Q" aggregationKind="NONE" name="images" navigable="true">
+      <modelElement href="ImageQuizGame.uml#_zAZC0AHcEe-lEa95bgwI_Q"/>
+      <visualProperties xmi:id="_zC5kQAHcEe-lEa95bgwI_Q" position="-93.5,-28.5"/>
+      <visibility xmi:id="_zBUP4QHcEe-lEa95bgwI_Q" label="~"/>
+      <cardinality xmi:id="_zBUP4AHcEe-lEa95bgwI_Q" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_zBTo0gHcEe-lEa95bgwI_Q" aggregationKind="NONE" name="">
+      <modelElement href="ImageQuizGame.uml#_zActMQHcEe-lEa95bgwI_Q"/>
+      <visualProperties xmi:id="_zC6LUQHcEe-lEa95bgwI_Q" position="-16.5,-16.5"/>
+      <visibility xmi:id="_zBUP4wHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_zBUP4gHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zBTBwAHcEe-lEa95bgwI_Q" sourceAnchor="85.0,44.0" targetAnchor="142.0,0.0" target="_yOP0MAHcEe-lEa95bgwI_Q" source="_zBU28gHcEe-lEa95bgwI_Q">
+    <modelElement href="ImageQuizGame.uml#_zAdUQAHcEe-lEa95bgwI_Q"/>
+    <stereotypes xmi:id="_zBTo1gHcEe-lEa95bgwI_Q" name="Reference">
+      <modelElement href="ImageQuizGame.uml#_zAd7UAHcEe-lEa95bgwI_Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_zBTo0wHcEe-lEa95bgwI_Q" text="">
+      <visualProperties xmi:id="_zC6LUwHcEe-lEa95bgwI_Q" position="2.5,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_zBTo1AHcEe-lEa95bgwI_Q" aggregationKind="NONE" name="">
+      <modelElement href="ImageQuizGame.uml#_zAdUQQHcEe-lEa95bgwI_Q"/>
+      <visualProperties xmi:id="_zC6LUgHcEe-lEa95bgwI_Q" position="-16.5,-16.5"/>
+      <visibility xmi:id="_zBUP5QHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_zBUP5AHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_zBTo1QHcEe-lEa95bgwI_Q" aggregationKind="NONE" name="randomImage" navigable="true">
+      <modelElement href="ImageQuizGame.uml#_zAaQ8QHcEe-lEa95bgwI_Q"/>
+      <visualProperties xmi:id="_zC6LVAHcEe-lEa95bgwI_Q" position="41.5,-28.5"/>
+      <visibility xmi:id="_zBU28QHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_zBU28AHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_zQ1SkAHcEe-lEa95bgwI_Q" dashed="true" subClass="_zQ3u2QHcEe-lEa95bgwI_Q">
+    <modelElement href="ImageQuizGame.uml#_zPsqIAHcEe-lEa95bgwI_Q"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zQ3u0AHcEe-lEa95bgwI_Q" source="_zQ3u2QHcEe-lEa95bgwI_Q">
+    <modelElement href="ImageQuizGame.uml#_zP0l8AHcEe-lEa95bgwI_Q"/>
+    <stereotypes xmi:id="_zQ3u0QHcEe-lEa95bgwI_Q" name="Reference">
+      <modelElement href="ImageQuizGame.uml#_zP1NAAHcEe-lEa95bgwI_Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_zQ3u0gHcEe-lEa95bgwI_Q" text=""/>
+    <sourceRole xmi:id="_zQ3u0wHcEe-lEa95bgwI_Q" aggregationKind="NONE" name="">
+      <modelElement href="ImageQuizGame.uml#_zP0l8QHcEe-lEa95bgwI_Q"/>
+      <visibility xmi:id="_zQ3u1AHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_zQ3u1QHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_zQ3u1gHcEe-lEa95bgwI_Q" aggregationKind="NONE" name="connection" navigable="true">
+      <modelElement href="ImageQuizGame.uml#_zPxioAHcEe-lEa95bgwI_Q"/>
+      <visibility xmi:id="_zQ3u1wHcEe-lEa95bgwI_Q" label="-"/>
+      <cardinality xmi:id="_zQ3u2AHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_x2gCmQHcEe-lEa95bgwI_Q" name="GameController" associationsOut="_x2dmUAHcEe-lEa95bgwI_Q _x2e0cAHcEe-lEa95bgwI_Q _x2fbgAHcEe-lEa95bgwI_Q _x2gCkAHcEe-lEa95bgwI_Q">
+    <modelElement href="ImageQuizGame.uml#_xxY5EAHcEe-lEa95bgwI_Q"/>
+    <visualProperties xmi:id="_x2gCmgHcEe-lEa95bgwI_Q" position="302.0,378.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_x2gCmwHcEe-lEa95bgwI_Q" label="~"/>
+    <attributes xmi:id="_x2gCnAHcEe-lEa95bgwI_Q" name="gameService">
+      <modelElement href="ImageQuizGame.uml#_xyIf8AHcEe-lEa95bgwI_Q"/>
+      <stereotypes xmi:id="_x2gCnQHcEe-lEa95bgwI_Q" name="LegacyStyledElement">
+        <modelElement href="ImageQuizGame.uml#_xyJuEAHcEe-lEa95bgwI_Q"/>
+      </stereotypes>
+      <visibility xmi:id="_x2gCngHcEe-lEa95bgwI_Q" label="-"/>
+      <cardinality xmi:id="_x2gCnwHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+      <type xmi:id="_x2gCoAHcEe-lEa95bgwI_Q" name="GameService">
+        <modelElement href="ImageQuizGame.uml#_xx_9EAHcEe-lEa95bgwI_Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_x2gCoQHcEe-lEa95bgwI_Q" name="gameView">
+      <modelElement href="ImageQuizGame.uml#_xyKVIAHcEe-lEa95bgwI_Q"/>
+      <stereotypes xmi:id="_x2gCogHcEe-lEa95bgwI_Q" name="LegacyStyledElement">
+        <modelElement href="ImageQuizGame.uml#_xyK8MAHcEe-lEa95bgwI_Q"/>
+      </stereotypes>
+      <visibility xmi:id="_x2gCowHcEe-lEa95bgwI_Q" label="-"/>
+      <cardinality xmi:id="_x2gCpAHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+      <type xmi:id="_x2gCpQHcEe-lEa95bgwI_Q" name="GameView">
+        <modelElement href="ImageQuizGame.uml#_xyByQAHcEe-lEa95bgwI_Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_x2gCpgHcEe-lEa95bgwI_Q" name="currentUser">
+      <modelElement href="ImageQuizGame.uml#_xyK8MQHcEe-lEa95bgwI_Q"/>
+      <stereotypes xmi:id="_x2gCpwHcEe-lEa95bgwI_Q" name="LegacyStyledElement">
+        <modelElement href="ImageQuizGame.uml#_xyLjQAHcEe-lEa95bgwI_Q"/>
+      </stereotypes>
+      <visibility xmi:id="_x2gCqAHcEe-lEa95bgwI_Q" label="-"/>
+      <cardinality xmi:id="_x2gCqQHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+      <type xmi:id="_x2gCqgHcEe-lEa95bgwI_Q" name="User">
+        <modelElement href="ImageQuizGame.uml#_xyDAYAHcEe-lEa95bgwI_Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_x2gCqwHcEe-lEa95bgwI_Q" name="scanner">
+      <modelElement href="ImageQuizGame.uml#_xyLjQQHcEe-lEa95bgwI_Q"/>
+      <stereotypes xmi:id="_x2gCrAHcEe-lEa95bgwI_Q" name="LegacyStyledElement">
+        <modelElement href="ImageQuizGame.uml#_xyMKUAHcEe-lEa95bgwI_Q"/>
+      </stereotypes>
+      <visibility xmi:id="_x2gCrQHcEe-lEa95bgwI_Q" label="-"/>
+      <cardinality xmi:id="_x2gCrgHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+      <type xmi:id="_x2gCrwHcEe-lEa95bgwI_Q" name="Scanner">
+        <modelElement href="ImageQuizGame.uml#_xx52cAHcEe-lEa95bgwI_Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_x2gCsAHcEe-lEa95bgwI_Q" name="startGame">
+      <modelElement href="ImageQuizGame.uml#_xxlGUAHcEe-lEa95bgwI_Q"/>
+      <visibility xmi:id="_x2gCsQHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_x2gCsgHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_x2gCswHcEe-lEa95bgwI_Q" name="userId">
+        <modelElement href="ImageQuizGame.uml#_xxlGUQHcEe-lEa95bgwI_Q"/>
+        <cardinality xmi:id="_x2gCtAHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+        <type xmi:id="_x2gCtQHcEe-lEa95bgwI_Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_x2gCtgHcEe-lEa95bgwI_Q" name="showRanking">
+      <modelElement href="ImageQuizGame.uml#_xxm7gAHcEe-lEa95bgwI_Q"/>
+      <visibility xmi:id="_x2gCtwHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_x2gCuAHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_x2gCuQHcEe-lEa95bgwI_Q" name="GameController">
+      <modelElement href="ImageQuizGame.uml#_xyE1kAHcEe-lEa95bgwI_Q"/>
+      <keywords xmi:id="_x2gCugHcEe-lEa95bgwI_Q" keyword="create"/>
+      <visibility xmi:id="_x2gCuwHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_x2gCvAHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_x2gCvQHcEe-lEa95bgwI_Q">
+        <modelElement href="ImageQuizGame.uml#_xyFcogHcEe-lEa95bgwI_Q"/>
+        <type xmi:id="_x2gCvgHcEe-lEa95bgwI_Q" name="GameController">
+          <modelElement href="ImageQuizGame.uml#_xxY5EAHcEe-lEa95bgwI_Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_x2gCvwHcEe-lEa95bgwI_Q" name="gameService">
+        <modelElement href="ImageQuizGame.uml#_xyE1kQHcEe-lEa95bgwI_Q"/>
+        <cardinality xmi:id="_x2gCwAHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+        <type xmi:id="_x2gCwQHcEe-lEa95bgwI_Q" name="GameService">
+          <modelElement href="ImageQuizGame.uml#_xx_9EAHcEe-lEa95bgwI_Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_x2gCwgHcEe-lEa95bgwI_Q" name="gameView">
+        <modelElement href="ImageQuizGame.uml#_xyE1kgHcEe-lEa95bgwI_Q"/>
+        <cardinality xmi:id="_x2gCwwHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+        <type xmi:id="_x2gCxAHcEe-lEa95bgwI_Q" name="GameView">
+          <modelElement href="ImageQuizGame.uml#_xyByQAHcEe-lEa95bgwI_Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_x2gCxQHcEe-lEa95bgwI_Q" name="processAnswer">
+      <modelElement href="ImageQuizGame.uml#_xyHR0AHcEe-lEa95bgwI_Q"/>
+      <visibility xmi:id="_x2gCxgHcEe-lEa95bgwI_Q" label="-"/>
+      <cardinality xmi:id="_x2gCxwHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_x2gCyAHcEe-lEa95bgwI_Q" name="userAnswer">
+        <modelElement href="ImageQuizGame.uml#_xyHR0QHcEe-lEa95bgwI_Q"/>
+        <cardinality xmi:id="_x2gCyQHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+        <type xmi:id="_x2gCygHcEe-lEa95bgwI_Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_x2gCywHcEe-lEa95bgwI_Q" name="imageData">
+        <modelElement href="ImageQuizGame.uml#_xyH44AHcEe-lEa95bgwI_Q"/>
+        <cardinality xmi:id="_x2gCzAHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+        <type xmi:id="_x2gCzQHcEe-lEa95bgwI_Q" name="ImageData">
+          <modelElement href="ImageQuizGame.uml#_xyGDsAHcEe-lEa95bgwI_Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_x_Pu6QHcEe-lEa95bgwI_Q" name="GameService" associationsIn="_x2dmUAHcEe-lEa95bgwI_Q" associationsOut="_x_PH0AHcEe-lEa95bgwI_Q _x_Pu4AHcEe-lEa95bgwI_Q">
+    <modelElement href="ImageQuizGame.uml#_xx_9EAHcEe-lEa95bgwI_Q"/>
+    <visualProperties xmi:id="_x_Pu6gHcEe-lEa95bgwI_Q" position="183.0,409.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_x_Pu6wHcEe-lEa95bgwI_Q" label="~"/>
+    <attributes xmi:id="_x_Pu7AHcEe-lEa95bgwI_Q" name="userRepository">
+      <modelElement href="ImageQuizGame.uml#_x6ejoAHcEe-lEa95bgwI_Q"/>
+      <stereotypes xmi:id="_x_Pu7QHcEe-lEa95bgwI_Q" name="LegacyStyledElement">
+        <modelElement href="ImageQuizGame.uml#_x6fKsAHcEe-lEa95bgwI_Q"/>
+      </stereotypes>
+      <visibility xmi:id="_x_Pu7gHcEe-lEa95bgwI_Q" label="-"/>
+      <cardinality xmi:id="_x_Pu7wHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+      <type xmi:id="_x_Pu8AHcEe-lEa95bgwI_Q" name="UserRepository">
+        <modelElement href="ImageQuizGame.uml#_x6bgUAHcEe-lEa95bgwI_Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_x_Pu8QHcEe-lEa95bgwI_Q" name="imageRepository">
+      <modelElement href="ImageQuizGame.uml#_x6fKsQHcEe-lEa95bgwI_Q"/>
+      <visibility xmi:id="_x_Pu8gHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_x_Pu8wHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+      <type xmi:id="_x_Pu9AHcEe-lEa95bgwI_Q" name="ImageRepository">
+        <modelElement href="ImageQuizGame.uml#_x6cucAHcEe-lEa95bgwI_Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_x_Pu9QHcEe-lEa95bgwI_Q" name="startGame">
+      <modelElement href="ImageQuizGame.uml#_x6LosAHcEe-lEa95bgwI_Q"/>
+      <visibility xmi:id="_x_Pu9gHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_x_Pu9wHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_x_Pu-AHcEe-lEa95bgwI_Q">
+        <modelElement href="ImageQuizGame.uml#_x6ZEEAHcEe-lEa95bgwI_Q"/>
+        <type xmi:id="_x_Pu-QHcEe-lEa95bgwI_Q" name="User">
+          <modelElement href="ImageQuizGame.uml#_xyDAYAHcEe-lEa95bgwI_Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_x_Pu-gHcEe-lEa95bgwI_Q" name="userId">
+        <modelElement href="ImageQuizGame.uml#_x6MPwAHcEe-lEa95bgwI_Q"/>
+        <cardinality xmi:id="_x_Pu-wHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+        <type xmi:id="_x_Pu_AHcEe-lEa95bgwI_Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_x_Pu_QHcEe-lEa95bgwI_Q" name="getRanking">
+      <modelElement href="ImageQuizGame.uml#_x6M20AHcEe-lEa95bgwI_Q"/>
+      <visibility xmi:id="_x_Pu_gHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_x_Pu_wHcEe-lEa95bgwI_Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_x_PvAAHcEe-lEa95bgwI_Q">
+        <modelElement href="ImageQuizGame.uml#_x6M20QHcEe-lEa95bgwI_Q"/>
+        <type xmi:id="_x_PvAQHcEe-lEa95bgwI_Q" name="User">
+          <modelElement href="ImageQuizGame.uml#_xyDAYAHcEe-lEa95bgwI_Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_x_PvAgHcEe-lEa95bgwI_Q" name="checkAnswer">
+      <modelElement href="ImageQuizGame.uml#_x6ZrIAHcEe-lEa95bgwI_Q"/>
+      <visibility xmi:id="_x_PvAwHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_x_PvBAHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_x_PvBQHcEe-lEa95bgwI_Q">
+        <modelElement href="ImageQuizGame.uml#_x6ZrIwHcEe-lEa95bgwI_Q"/>
+        <type xmi:id="_x_PvBgHcEe-lEa95bgwI_Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_x_PvBwHcEe-lEa95bgwI_Q" name="userAnswer">
+        <modelElement href="ImageQuizGame.uml#_x6ZrIQHcEe-lEa95bgwI_Q"/>
+        <cardinality xmi:id="_x_PvCAHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+        <type xmi:id="_x_PvCQHcEe-lEa95bgwI_Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_x_PvCgHcEe-lEa95bgwI_Q" name="imageData">
+        <modelElement href="ImageQuizGame.uml#_x6ZrIgHcEe-lEa95bgwI_Q"/>
+        <cardinality xmi:id="_x_PvCwHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+        <type xmi:id="_x_PvDAHcEe-lEa95bgwI_Q" name="ImageData">
+          <modelElement href="ImageQuizGame.uml#_xyGDsAHcEe-lEa95bgwI_Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_x_PvDQHcEe-lEa95bgwI_Q" name="updateScore">
+      <modelElement href="ImageQuizGame.uml#_x6aSMAHcEe-lEa95bgwI_Q"/>
+      <visibility xmi:id="_x_PvDgHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_x_PvDwHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_x_PvEAHcEe-lEa95bgwI_Q" name="user">
+        <modelElement href="ImageQuizGame.uml#_x6aSMQHcEe-lEa95bgwI_Q"/>
+        <cardinality xmi:id="_x_PvEQHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+        <type xmi:id="_x_PvEgHcEe-lEa95bgwI_Q" name="User">
+          <modelElement href="ImageQuizGame.uml#_xyDAYAHcEe-lEa95bgwI_Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_x_PvEwHcEe-lEa95bgwI_Q" name="score">
+        <modelElement href="ImageQuizGame.uml#_x6aSMgHcEe-lEa95bgwI_Q"/>
+        <cardinality xmi:id="_x_PvFAHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+        <type xmi:id="_x_PvFQHcEe-lEa95bgwI_Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_x_PvFgHcEe-lEa95bgwI_Q" name="GameService">
+      <modelElement href="ImageQuizGame.uml#_x6dVgQHcEe-lEa95bgwI_Q"/>
+      <keywords xmi:id="_x_PvFwHcEe-lEa95bgwI_Q" keyword="create"/>
+      <visibility xmi:id="_x_PvGAHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_x_PvGQHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_x_PvGgHcEe-lEa95bgwI_Q">
+        <modelElement href="ImageQuizGame.uml#_x6d8lAHcEe-lEa95bgwI_Q"/>
+        <type xmi:id="_x_PvGwHcEe-lEa95bgwI_Q" name="GameService">
+          <modelElement href="ImageQuizGame.uml#_xx_9EAHcEe-lEa95bgwI_Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_x_PvHAHcEe-lEa95bgwI_Q" name="userRepository">
+        <modelElement href="ImageQuizGame.uml#_x6d8kAHcEe-lEa95bgwI_Q"/>
+        <cardinality xmi:id="_x_PvHQHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+        <type xmi:id="_x_PvHgHcEe-lEa95bgwI_Q" name="UserRepository">
+          <modelElement href="ImageQuizGame.uml#_x6bgUAHcEe-lEa95bgwI_Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_x_PvHwHcEe-lEa95bgwI_Q" name="imageRepository">
+        <modelElement href="ImageQuizGame.uml#_x6d8kQHcEe-lEa95bgwI_Q"/>
+        <cardinality xmi:id="_x_PvIAHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+        <type xmi:id="_x_PvIQHcEe-lEa95bgwI_Q" name="ImageRepository">
+          <modelElement href="ImageQuizGame.uml#_x6cucAHcEe-lEa95bgwI_Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yD9PwAHcEe-lEa95bgwI_Q" name="GameView" associationsIn="_x2e0cAHcEe-lEa95bgwI_Q">
+    <modelElement href="ImageQuizGame.uml#_xyByQAHcEe-lEa95bgwI_Q"/>
+    <visualProperties xmi:id="_yD9PwQHcEe-lEa95bgwI_Q" position="201.0,434.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_yD9PwgHcEe-lEa95bgwI_Q" label="~"/>
+    <operations xmi:id="_yD9PwwHcEe-lEa95bgwI_Q" name="showCorrectMessage">
+      <modelElement href="ImageQuizGame.uml#_yDBboAHcEe-lEa95bgwI_Q"/>
+      <visibility xmi:id="_yD9PxAHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_yD9PxQHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_yD9PxgHcEe-lEa95bgwI_Q" name="showIncorrectMessage">
+      <modelElement href="ImageQuizGame.uml#_yDCCsAHcEe-lEa95bgwI_Q"/>
+      <visibility xmi:id="_yD9PxwHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_yD9PyAHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_yD9PyQHcEe-lEa95bgwI_Q" name="showImage">
+      <modelElement href="ImageQuizGame.uml#_yDIJUAHcEe-lEa95bgwI_Q"/>
+      <visibility xmi:id="_yD9PygHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_yD9PywHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_yD9PzAHcEe-lEa95bgwI_Q" name="imageData">
+        <modelElement href="ImageQuizGame.uml#_yDIJUQHcEe-lEa95bgwI_Q"/>
+        <cardinality xmi:id="_yD9PzQHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+        <type xmi:id="_yD9PzgHcEe-lEa95bgwI_Q" name="ImageData">
+          <modelElement href="ImageQuizGame.uml#_xyGDsAHcEe-lEa95bgwI_Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yD9PzwHcEe-lEa95bgwI_Q" name="showRanking">
+      <modelElement href="ImageQuizGame.uml#_yDIwYAHcEe-lEa95bgwI_Q"/>
+      <visibility xmi:id="_yD9P0AHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_yD9P0QHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_yD9P0gHcEe-lEa95bgwI_Q" name="ranking">
+        <modelElement href="ImageQuizGame.uml#_yDIwYQHcEe-lEa95bgwI_Q"/>
+        <cardinality xmi:id="_yD9P0wHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+        <type xmi:id="_yD9P1AHcEe-lEa95bgwI_Q" name="List">
+          <modelElement href="ImageQuizGame.uml#_xx1lAAHcEe-lEa95bgwI_Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yOP0MAHcEe-lEa95bgwI_Q" name="ImageData" associationsIn="_zBTBwAHcEe-lEa95bgwI_Q" associationsOut="_zBSasAHcEe-lEa95bgwI_Q">
+    <modelElement href="ImageQuizGame.uml#_xyGDsAHcEe-lEa95bgwI_Q"/>
+    <visualProperties xmi:id="_yOP0MQHcEe-lEa95bgwI_Q" position="243.0,301.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_yOP0MgHcEe-lEa95bgwI_Q" label="~"/>
+    <attributes xmi:id="_yOP0MwHcEe-lEa95bgwI_Q" name="imagePath">
+      <modelElement href="ImageQuizGame.uml#_yNowMAHcEe-lEa95bgwI_Q"/>
+      <visibility xmi:id="_yOP0NAHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_yOP0NQHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+      <type xmi:id="_yOP0NgHcEe-lEa95bgwI_Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yOP0NwHcEe-lEa95bgwI_Q" name="answer">
+      <modelElement href="ImageQuizGame.uml#_yNpXQAHcEe-lEa95bgwI_Q"/>
+      <visibility xmi:id="_yOP0OAHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_yOP0OQHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+      <type xmi:id="_yOP0OgHcEe-lEa95bgwI_Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_yOP0OwHcEe-lEa95bgwI_Q" name="ImageData">
+      <modelElement href="ImageQuizGame.uml#_yNoJIAHcEe-lEa95bgwI_Q"/>
+      <keywords xmi:id="_yOP0PAHcEe-lEa95bgwI_Q" keyword="create"/>
+      <visibility xmi:id="_yOP0PQHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_yOP0PgHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yOP0PwHcEe-lEa95bgwI_Q">
+        <modelElement href="ImageQuizGame.uml#_yNoJJQHcEe-lEa95bgwI_Q"/>
+        <type xmi:id="_yOP0QAHcEe-lEa95bgwI_Q" name="ImageData">
+          <modelElement href="ImageQuizGame.uml#_xyGDsAHcEe-lEa95bgwI_Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yOP0QQHcEe-lEa95bgwI_Q" name="imagePath">
+        <modelElement href="ImageQuizGame.uml#_yNoJIQHcEe-lEa95bgwI_Q"/>
+        <cardinality xmi:id="_yOP0QgHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+        <type xmi:id="_yOP0QwHcEe-lEa95bgwI_Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yOP0RAHcEe-lEa95bgwI_Q" name="answer">
+        <modelElement href="ImageQuizGame.uml#_yNoJIgHcEe-lEa95bgwI_Q"/>
+        <cardinality xmi:id="_yOP0RQHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+        <type xmi:id="_yOP0RgHcEe-lEa95bgwI_Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_zBU28gHcEe-lEa95bgwI_Q" name="ImageRepository" associationsIn="_zBSasAHcEe-lEa95bgwI_Q _x_Pu4AHcEe-lEa95bgwI_Q" associationsOut="_zBTBwAHcEe-lEa95bgwI_Q">
+    <modelElement href="ImageQuizGame.uml#_x6cucAHcEe-lEa95bgwI_Q"/>
+    <visualProperties xmi:id="_zBU28wHcEe-lEa95bgwI_Q" position="300.0,245.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zBU29AHcEe-lEa95bgwI_Q" label="~"/>
+    <attributes xmi:id="_zBU29QHcEe-lEa95bgwI_Q" name="images">
+      <modelElement href="ImageQuizGame.uml#_zAZC0AHcEe-lEa95bgwI_Q"/>
+      <visibility xmi:id="_zBU29gHcEe-lEa95bgwI_Q" label="~"/>
+      <cardinality xmi:id="_zBU29wHcEe-lEa95bgwI_Q" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_zBU2-AHcEe-lEa95bgwI_Q" name="ImageData">
+        <modelElement href="ImageQuizGame.uml#_xyGDsAHcEe-lEa95bgwI_Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zBU2-QHcEe-lEa95bgwI_Q" name="randomImage">
+      <modelElement href="ImageQuizGame.uml#_zAaQ8QHcEe-lEa95bgwI_Q"/>
+      <visibility xmi:id="_zBU2-gHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_zBU2-wHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+      <type xmi:id="_zBU2_AHcEe-lEa95bgwI_Q" name="ImageData">
+        <modelElement href="ImageQuizGame.uml#_xyGDsAHcEe-lEa95bgwI_Q"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zQ3u2QHcEe-lEa95bgwI_Q" name="JDBCUserRepository" associationsOut="_zQ3u0AHcEe-lEa95bgwI_Q" generalizations="_zQ1SkAHcEe-lEa95bgwI_Q">
+    <modelElement href="ImageQuizGame.uml#_zPZIIAHcEe-lEa95bgwI_Q"/>
+    <visualProperties xmi:id="_zQ3u2gHcEe-lEa95bgwI_Q" position="177.0,192.0"/>
+    <visibility xmi:id="_zQ3u2wHcEe-lEa95bgwI_Q" label="~"/>
+    <attributes xmi:id="_zQ3u3AHcEe-lEa95bgwI_Q" name="connection">
+      <modelElement href="ImageQuizGame.uml#_zPxioAHcEe-lEa95bgwI_Q"/>
+      <stereotypes xmi:id="_zQ3u3QHcEe-lEa95bgwI_Q" name="LegacyStyledElement">
+        <modelElement href="ImageQuizGame.uml#_zPxioQHcEe-lEa95bgwI_Q"/>
+      </stereotypes>
+      <visibility xmi:id="_zQ3u3gHcEe-lEa95bgwI_Q" label="-"/>
+      <cardinality xmi:id="_zQ3u3wHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+      <type xmi:id="_zQ3u4AHcEe-lEa95bgwI_Q" name="Connection">
+        <modelElement href="ImageQuizGame.uml#_zPwUgAHcEe-lEa95bgwI_Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_zQ3u4QHcEe-lEa95bgwI_Q" name="JDBCUserRepository">
+      <modelElement href="ImageQuizGame.uml#_zPZvMAHcEe-lEa95bgwI_Q"/>
+      <keywords xmi:id="_zQ3u4gHcEe-lEa95bgwI_Q" keyword="create"/>
+      <visibility xmi:id="_zQ3u4wHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_zQ3u5AHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zQ3u5QHcEe-lEa95bgwI_Q">
+        <modelElement href="ImageQuizGame.uml#_zPZvNgHcEe-lEa95bgwI_Q"/>
+        <type xmi:id="_zQ3u5gHcEe-lEa95bgwI_Q" name="JDBCUserRepository">
+          <modelElement href="ImageQuizGame.uml#_zPZIIAHcEe-lEa95bgwI_Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zQ3u5wHcEe-lEa95bgwI_Q" name="url">
+        <modelElement href="ImageQuizGame.uml#_zPZvMQHcEe-lEa95bgwI_Q"/>
+        <cardinality xmi:id="_zQ3u6AHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+        <type xmi:id="_zQ3u6QHcEe-lEa95bgwI_Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zQ3u6gHcEe-lEa95bgwI_Q" name="username">
+        <modelElement href="ImageQuizGame.uml#_zPZvMgHcEe-lEa95bgwI_Q"/>
+        <cardinality xmi:id="_zQ3u6wHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+        <type xmi:id="_zQ3u7AHcEe-lEa95bgwI_Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zQ3u7QHcEe-lEa95bgwI_Q" name="password">
+        <modelElement href="ImageQuizGame.uml#_zPZvMwHcEe-lEa95bgwI_Q"/>
+        <cardinality xmi:id="_zQ3u7gHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+        <type xmi:id="_zQ3u7wHcEe-lEa95bgwI_Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zQ3u8AHcEe-lEa95bgwI_Q" name="getUserByUserId">
+      <modelElement href="ImageQuizGame.uml#_zPZvNwHcEe-lEa95bgwI_Q"/>
+      <stereotypes xmi:id="_zQ3u8QHcEe-lEa95bgwI_Q" name="LegacyStyledElement">
+        <modelElement href="ImageQuizGame.uml#_zPZvOQHcEe-lEa95bgwI_Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zQ3u8gHcEe-lEa95bgwI_Q" name="Annotations">
+        <modelElement href="ImageQuizGame.uml#_zPaWQAHcEe-lEa95bgwI_Q"/>
+      </stereotypes>
+      <visibility xmi:id="_zQ3u8wHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_zQ3u9AHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zQ3u9QHcEe-lEa95bgwI_Q">
+        <modelElement href="ImageQuizGame.uml#_zPufUAHcEe-lEa95bgwI_Q"/>
+        <type xmi:id="_zQ3u9gHcEe-lEa95bgwI_Q" name="User">
+          <modelElement href="ImageQuizGame.uml#_xyDAYAHcEe-lEa95bgwI_Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zQ3u9wHcEe-lEa95bgwI_Q" name="userId">
+        <modelElement href="ImageQuizGame.uml#_zPZvOAHcEe-lEa95bgwI_Q"/>
+        <cardinality xmi:id="_zQ3u-AHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+        <type xmi:id="_zQ3u-QHcEe-lEa95bgwI_Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zQ3u-gHcEe-lEa95bgwI_Q" name="getAllUsers">
+      <modelElement href="ImageQuizGame.uml#_zPa9UAHcEe-lEa95bgwI_Q"/>
+      <stereotypes xmi:id="_zQ3u-wHcEe-lEa95bgwI_Q" name="LegacyStyledElement">
+        <modelElement href="ImageQuizGame.uml#_zPbkYgHcEe-lEa95bgwI_Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zQ3u_AHcEe-lEa95bgwI_Q" name="Annotations">
+        <modelElement href="ImageQuizGame.uml#_zPbkYwHcEe-lEa95bgwI_Q"/>
+      </stereotypes>
+      <visibility xmi:id="_zQ3u_QHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_zQ3u_gHcEe-lEa95bgwI_Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_zQ3u_wHcEe-lEa95bgwI_Q">
+        <modelElement href="ImageQuizGame.uml#_zPbkYAHcEe-lEa95bgwI_Q"/>
+        <type xmi:id="_zQ3vAAHcEe-lEa95bgwI_Q" name="User">
+          <modelElement href="ImageQuizGame.uml#_xyDAYAHcEe-lEa95bgwI_Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zQ3vAQHcEe-lEa95bgwI_Q" name="saveUser">
+      <modelElement href="ImageQuizGame.uml#_zPufUQHcEe-lEa95bgwI_Q"/>
+      <stereotypes xmi:id="_zQ3vAgHcEe-lEa95bgwI_Q" name="LegacyStyledElement">
+        <modelElement href="ImageQuizGame.uml#_zPufUwHcEe-lEa95bgwI_Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zQ3vAwHcEe-lEa95bgwI_Q" name="Annotations">
+        <modelElement href="ImageQuizGame.uml#_zPvGYAHcEe-lEa95bgwI_Q"/>
+      </stereotypes>
+      <visibility xmi:id="_zQ3vBAHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_zQ3vBQHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_zQ3vBgHcEe-lEa95bgwI_Q" name="user">
+        <modelElement href="ImageQuizGame.uml#_zPufUgHcEe-lEa95bgwI_Q"/>
+        <cardinality xmi:id="_zQ3vBwHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+        <type xmi:id="_zQ3vCAHcEe-lEa95bgwI_Q" name="User">
+          <modelElement href="ImageQuizGame.uml#_xyDAYAHcEe-lEa95bgwI_Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zQ3vCQHcEe-lEa95bgwI_Q" name="updateUserScore">
+      <modelElement href="ImageQuizGame.uml#_zPvGYgHcEe-lEa95bgwI_Q"/>
+      <stereotypes xmi:id="_zQ3vCgHcEe-lEa95bgwI_Q" name="LegacyStyledElement">
+        <modelElement href="ImageQuizGame.uml#_zPvtcAHcEe-lEa95bgwI_Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zQ3vCwHcEe-lEa95bgwI_Q" name="Annotations">
+        <modelElement href="ImageQuizGame.uml#_zPvtcQHcEe-lEa95bgwI_Q"/>
+      </stereotypes>
+      <visibility xmi:id="_zQ3vDAHcEe-lEa95bgwI_Q" label="+"/>
+      <cardinality xmi:id="_zQ3vDQHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_zQ3vDgHcEe-lEa95bgwI_Q" name="user">
+        <modelElement href="ImageQuizGame.uml#_zPvGYwHcEe-lEa95bgwI_Q"/>
+        <cardinality xmi:id="_zQ3vDwHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+        <type xmi:id="_zQ3vEAHcEe-lEa95bgwI_Q" name="User">
+          <modelElement href="ImageQuizGame.uml#_xyDAYAHcEe-lEa95bgwI_Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zQ3vEQHcEe-lEa95bgwI_Q" name="score">
+        <modelElement href="ImageQuizGame.uml#_zPvGZAHcEe-lEa95bgwI_Q"/>
+        <cardinality xmi:id="_zQ3vEgHcEe-lEa95bgwI_Q" label="1" max="1" min="1"/>
+        <type xmi:id="_zQ3vEwHcEe-lEa95bgwI_Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
