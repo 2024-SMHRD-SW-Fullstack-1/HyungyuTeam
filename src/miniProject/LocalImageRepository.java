@@ -1,33 +1,62 @@
 package miniProject;
 
 import java.awt.BorderLayout;
+import java.awt.Dimension;
+import java.awt.FlowLayout;
+import java.awt.Image;
+import java.awt.Toolkit;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
+
+import javax.imageio.ImageIO;
 import javax.swing.*;
 
 public class LocalImageRepository extends JFrame {
     private JTextField textField;
     private JLabel scoreLabel;
-
+    private JButton Jbutton;
+    
     public LocalImageRepository() {
         super("이미지 퀴즈 게임");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JPanel panel = new JPanel(new BorderLayout());
         add(panel);
-
         // 이미지 레이블 생성
         JLabel imageLabel = new JLabel();
         panel.add(imageLabel, BorderLayout.CENTER);
 
         // 텍스트 필드 생성
-        textField = new JTextField(20);
-        panel.add(textField, BorderLayout.SOUTH);
+        textField = new JTextField(10);
+        panel.add(textField, BorderLayout.NORTH); // 텍스트 필드를 NORTH에 추가
+
+        // 입력 패널 생성
+        JPanel inputPanel = new JPanel(new FlowLayout());
+        panel.add(inputPanel, BorderLayout.SOUTH);
+
+        
+        // 확인 버튼 생성
+        JButton confirmButton = new JButton("확인");
+        confirmButton.setLocation(10, 10);
+        inputPanel.add(confirmButton);
+
+        // 확인 버튼에 액션 리스너 추가
+        confirmButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                handleConfirmButton();
+            }
+        });
 
         // 점수 레이블 생성
         scoreLabel = new JLabel("Score: 0");
-        panel.add(scoreLabel, BorderLayout.NORTH);
+        panel.add(scoreLabel, BorderLayout.NORTH); // 점수 레이블도 NORTH에 추가
 
-        pack();
+        setSize(750, 500);
+//        pack();
         setLocationRelativeTo(null);
         setVisible(true);
     }
@@ -35,6 +64,12 @@ public class LocalImageRepository extends JFrame {
     public void setImageIcon(ImageIcon icon) {
         JLabel imageLabel = (JLabel) ((JPanel) getContentPane().getComponent(0)).getComponent(0);
         imageLabel.setIcon(icon);
+    }
+
+    private void handleConfirmButton() {
+        String userInput = textField.getText().trim();
+        // 여기서 사용자가 입력한 텍스트를 처리하는 코드를 작성합니다.
+        System.out.println("사용자 입력: " + userInput);
     }
 
     public void setQuestionText(String question) {

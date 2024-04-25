@@ -15,7 +15,7 @@ public class LocalImageController {
             { "이게 머게ㅎㅎ", "" }
     };
     private int currentQuizIndex = 0;
-    private static final String IMAGE_FOLDER_PATH = "C:/java_workspace/ImageQuizGame/image/";
+    private static final String IMAGE_FOLDER_PATH = "C:\\java_workspace\\ImageQuizGame\\image\\";
     private static final String[] IMAGE_FILE_NAMES = getImageFileNames();
 
     private static String[] getImageFileNames() {
@@ -50,7 +50,6 @@ public class LocalImageController {
         String question = currentQuiz[0];
         ImageIcon icon = new ImageIcon(IMAGE_FOLDER_PATH + IMAGE_FILE_NAMES[currentQuizIndex]);
         view.setImageIcon(icon);
-
         SwingUtilities.invokeLater(() -> view.setQuestionText(question));
     }
 
