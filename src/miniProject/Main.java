@@ -11,7 +11,7 @@ public class Main {
                 String username = "service";
                 String password = "12345";
                 UserRepository userRepository = new JDBCUserRepository(url, username, password);
-                LocalImageRepository view = new LocalImageRepository();
+                LocalImageRepository view = new LocalImageRepository(userRepository); // userRepository 전달
                 LocalImageController controller = new LocalImageController(view, userRepository);
             }
         });

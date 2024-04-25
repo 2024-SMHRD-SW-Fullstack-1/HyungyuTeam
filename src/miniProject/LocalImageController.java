@@ -26,7 +26,7 @@ public class LocalImageController {
 
     public LocalImageController(LocalImageRepository view, UserRepository userRepository) {
         this.view = view;
-        this.userRepository = userRepository;
+        this.userRepository = userRepository; // userRepository를 생성자 매개변수로 받아 초기화
         initGame();
     }
 
